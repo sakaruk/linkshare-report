@@ -1,0 +1,29 @@
+{
+  "author": "@sakaruk/linkshare-report",
+  "name": "linkshare-report",
+  "description": "Rakuten (Linkshare) Affiliate Network Reports",
+  "keywords": [
+    "rakuten",
+    "linkshare",
+    "report"
+  ],
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/sakaruk/linkshare-report/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakaruk/linkshare-report"
+  },
+  "main": "./lib/linkshare",
+  "dependencies": {
+    "request": "*",
+    "csv": "*"
+  },
+  "scripts": {
+    "test": "mocha --timeout 100000 -R spec"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
